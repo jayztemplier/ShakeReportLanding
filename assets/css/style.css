@@ -1,0 +1,92 @@
+
+
+/* line 1, ../../app/assets/stylesheets/pages.css.scss */
+#home_page {
+  background-color: #004A83;
+}
+/* line 3, ../../app/assets/stylesheets/pages.css.scss */
+#home_page p {
+  color: #bebebe;
+  font-size: 1em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+/* line 9, ../../app/assets/stylesheets/pages.css.scss */
+#home_page p.italic {
+  font-style: italic;
+}
+/* line 14, ../../app/assets/stylesheets/pages.css.scss */
+#home_page h1, #home_page h3, #home_page h4 {
+  color: white;
+}
+/* line 18, ../../app/assets/stylesheets/pages.css.scss */
+#home_page pre {
+  background-color: #90A8C7;
+  border: 1px solid #949DAA;
+}
+/* line 23, ../../app/assets/stylesheets/pages.css.scss */
+#home_page h4 {
+  margin-top: 25px;
+}
+/* line 27, ../../app/assets/stylesheets/pages.css.scss */
+#home_page .row {
+  margin-bottom: 20px;
+}
+/* line 31, ../../app/assets/stylesheets/pages.css.scss */
+#home_page hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* line 36, ../../app/assets/stylesheets/pages.css.scss */
+#home_page .installation_column {
+  padding: 0px 44px;
+}
+/* line 40, ../../app/assets/stylesheets/pages.css.scss */
+#home_page .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* line 46, ../../app/assets/stylesheets/pages.css.scss */
+#home_page #header #beta_label {
+  margin-bottom: -20px;
+  text-align: right;
+  display: inline;
+  font-style: italic;
+  color: rgb(194, 23, 23);
+}
+/* line 53, ../../app/assets/stylesheets/pages.css.scss */
+#home_page #header h1{
+  font-family: 'Lobster', cursive;
+  color: rgb(116, 116, 116);
+  font-size: 65px;
+  display: inline;
+}
+
+#home_page #header #big_logo {
+	width: 105px;
+	display: inline;
+	float: left;
+}
+
+#home_page #header p {
+	color: #999999;
+}
+
+#home_page #header p.description {
+	margin: 25px 0px;
+}
+
+#home_page .column_title {
+	font-size: 35px;
+}
+
+.embeddedVideo img {
+	width: 197px;
+	float: right;	
+}
+
+object#video {
+	position: absolute;
+	margin: 55px 76.5px;
+	background-image: url(./assets/img/iphone_5_blanc.png);
+}
