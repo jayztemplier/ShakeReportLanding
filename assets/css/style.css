@@ -47,6 +47,10 @@
   padding-right: 15px;
 }
 /* line 46, ../../app/assets/stylesheets/pages.css.scss */
+#home_page #header {
+  margin-bottom: 0px;
+}
+
 #home_page #header #beta_label {
   margin-bottom: -20px;
   text-align: right;
@@ -87,6 +91,26 @@
 
 object#video {
 	position: absolute;
-	margin: 55px 76.5px;
+	margin: 55px 77px;
 	background-image: url(./assets/img/iphone_5_blanc.png);
+}
+
+div#backend {
+  background-color: #3768bf;
+}
+
+.carousel {
+  width: 650px;
+}
+
+.carousel-caption h3{
+  font-size: 30px;
+  color: black !important; 
+}
+
+.carousel-control.right {
+  background-image: none;
+}
+.carousel-control.left {
+  background-image: none;
 }
