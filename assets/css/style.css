@@ -99,18 +99,32 @@ div#backend {
   background-color: #3768bf;
 }
 
-.carousel {
-  width: 650px;
+.how-it-works {
+  color: #eee;
 }
 
-.carousel-caption h3{
+.how-it-works .glyphicon{
+  margin-right: 7px;
+}
+
+.how-it-works p{
+  color: #eee !important;
+}
+
+#backend h2{
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+#backend .sub-section {
+  margin: 50px 0px;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel h3{
   font-size: 30px;
-  color: black !important; 
-}
-
-.carousel-control.right {
-  background-image: none;
-}
-.carousel-control.left {
-  background-image: none;
+  color: #E3E3E3 !important; 
 }

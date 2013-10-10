@@ -23,7 +23,10 @@
 				<h3 id="beta_label" class="">beta</h3>
 	        	<p class="italic">an easy to use, open source, bug reporter for mobile applications.</p>
 				<p class="description">Shake Reporter is a framework that allows you to easily get bug reports from users of your mobile application. When you see something wrong, shake the device, and report the issue with a custom message. You can either receive reports by email or configure a shake report backend which will collect and classify the reports.</p>
-	        	<p><a class="btn btn-primary btn-lg" href="https://github.com/jayztemplier/ShakeReport" target="_blank">Get last stable version</a></p>
+	        	<p>
+	        		<a class="btn btn-primary btn-lg" href="https://github.com/jayztemplier/ShakeReport" target="_blank">Get last stable version</a>
+	        		<a class="btn btn-primary btn-lg" href="#installation" target="_blank">Install tutorial</a>
+	        	</p>
 	     	</div>
 			<div class="col-md-3 embeddedVideo">
 				<img src="./assets/img/iphone_5_blanc.png">
@@ -46,75 +49,99 @@
 	</div>
 	<!-- --------------------------------- -->
 
+
 	<!-- BACKEND  -->
 	<div id="backend" class="jumbotron">
 		<div class="container">
-			<h1>Manage your reports</h1>
-			<h4>with our open source backend.</h4>
-			<div id="carousel-example-generic" class="carousel slide">
-			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-			    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-			  </ol>
+			<h1>How does it work?</h1>
+			<div class="sub-section how-it-works">
+			<p>Shake Report record a lot of information while the tester is trying the application, and doesn't require any action to activate 
+				it. During a session, we:</p>
+				<ul>
+					<li>
+						<span class="glyphicon glyphicon-facetime-video"></span> record the screen, and securely hide secure field
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-hand-up"></span> display all user's gestures on the video
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-picture"></span> take a screenshot of the last screen viewed by the user, and save the dumped view
+					</li>
+					<li>
+						<span class="glyphicon glyphicon-list-alt"></span> save the logs of the session, and crash reports
+					</li>
+				</ul>
+			</div>
 
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner">
-			    <div class="item active">
-			      <img src="./assets/img/carousel/classify.jpg" alt="classify">
-			      <div class="carousel-caption">
-			      	<h3>Classify & Filter</h3>
-			      </div>
-			    </div>
+			<div class="sub-section server-description">
+				<h2>Better with the ShakeReport Server</h2>
+				<div id="carousel-example-generic" class="carousel slide">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+				  </ol>
+	
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+				    <div class="item active">
+				        <img class="col-md-6" src="./assets/img/carousel/classify.jpg" alt="classify"/>
+				      	<div class="col-md-5">
+				      		<h3>Classify & Filter</h3>
+				      		<p>by using a simple workflow adapted to mobile development.</p>
+				      	</div> 
+				    </div>
+	
+				    <div class="item">
+				     	<img class="col-md-6"  src="./assets/img/carousel/informations.jpg" alt="informations">
+				      	<div class="col-md-5">
+				      		<h3>Get all the data you need</h3>
+				      		<p>video of the session, logs, crash reports and more.</p>
+				      	</div> 	
+				    </div>
+				    
+				    <div class="item">
+				      <img class="col-md-6" src="./assets/img/carousel/collaborate.jpg" alt="collaborate">
+				      	<div class="col-md-5">
+				      		<h3>Collaborate with your team</h3>
+				      		<p>talk about a report by exchanging messages with your coworkers.</p>
+				      </div>
+				    </div>
+				    
+				    <div class="item">
+				      <img class="col-md-6" src="./assets/img/carousel/build.jpg" alt="build">
+				      	<div class="col-md-5">
+				      		<h3>Versioning</h3>
+				      		<p>announce a new build to automatically mark all the report waiting for this new build as testable.</p>
+				      </div>
+				    </div>
+				    
+				    <div class="item">
+				      <img class="col-md-6" src="./assets/img/carousel/alert.jpg" alt="alert">
+				      	<div class="col-md-5">
+				      		<h3>Get notify when something happen</h3>
+				      		<p>receive an email when a report is created or when a new build is ready.</p>
+				      </div>
+				    </div>
+	
+	
+				  </div>
+				</div>
+			</div
 
-			    <div class="item">
-			      <img src="./assets/img/carousel/informations.jpg" alt="informations">
-			      <div class="carousel-caption">
-			      	<h3>Get all the data you need</h3>
-			      </div>
-			    </div>
-			    
-			    <div class="item">
-			      <img src="./assets/img/carousel/collaborate.jpg" alt="collaborate">
-			      <div class="carousel-caption">
-			      	<h3>Collaborate with your team</h3>
-			      </div>
-			    </div>
-			    
-			    <div class="item">
-			      <img src="./assets/img/carousel/build.jpg" alt="build">
-			      <div class="carousel-caption">
-			      	<h3>Use build versioning to mark reports as testable</h3>
-			      </div>
-			    </div>
-			    
-			    <div class="item">
-			      <img src="./assets/img/carousel/alert.jpg" alt="alert">
-			      <div class="carousel-caption">
-			      	<h3>Get notify when something happen</h3>
-			      </div>
-			    </div>
-
-
-			  </div>
-
-			  <!-- Controls -->
-			  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-			    <span class="icon-prev"></span>
-			  </a>
-			  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-			    <span class="icon-next"></span>
-			  </a>
+			<div class="sub-section open-source">
+				<h2>Entirely Open Source</h2>
+				<p>The best thing is that it's entirely open source. You can help us to make this library awesome by contributing to the code source. This project is open source and will stay open source. It's been made by iOS developers for iOS developers, that's it.</p>
 			</div>
 		</div>
 	</div>
 	<!-- --------------------------------- -->
 
 	<!-- INSTALLATION  -->
-	<div class="container">
+	<div id="installation" class="container">
 		<!-- BY EMAIL -->
 		<div class="row">
 			<div class="col-md-6 installation_column">
