@@ -48,7 +48,7 @@
 }
 /* line 46, ../../app/assets/stylesheets/pages.css.scss */
 #home_page #header {
-  margin-bottom: 0px;
+  margin-bottom: -150px;
 }
 
 #home_page #header #beta_label {
@@ -95,8 +95,21 @@ object#video {
 	background-image: url(./assets/img/iphone_5_blanc.png);
 }
 
-div#backend {
+#features {
   background-color: #3768bf;
+  margin-bottom: 0px;
+}
+
+#backend {
+  background-color: #5586DF;
+}
+
+#installation {
+  background-color: #004A83;
+}
+
+#installation p {
+  font-size: 16px;
 }
 
 .how-it-works {
@@ -111,12 +124,12 @@ div#backend {
   color: #eee !important;
 }
 
-#backend h2{
+.block h2{
   color: #eee;
   margin-bottom: 20px;
 }
 
-#backend .sub-section {
+.block .sub-section {
   margin: 50px 0px;
 }
 
@@ -127,4 +140,37 @@ div#backend {
 .carousel h3{
   font-size: 30px;
   color: #E3E3E3 !important; 
+}
+
+.carousel-control.left, .carousel-control.right {
+  background: none;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next {
+  color: black;
+  font-size: 50px;
+}
+
+#iphone {
+  background-image: url(../img/iphone.png);
+  width: 300px;
+  height: 590px;
+}
+
+#iphone #screen {
+  width: 222px;
+  height: 405px;
+  position: relative;
+  top: 98px;
+  left: 39px;
+  overflow: hidden;
+}
+
+ul#sources li {
+  list-style: none;
+  margin: 10px 0px;
+  color: #999999;
+}
+ul#sources li a{
+  width: 105px;
 }

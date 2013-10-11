@@ -17,19 +17,50 @@
 	<!-- TITLE -->
 	<div id="header" class="jumbotron">
 		<div class="container">
-			<div class="col-md-8 Description">
+			<div class="col-md-9 Description">
 				<img id="big_logo" src="./assets/img/big_logo.png"/>
 				<h1>Shake Report</h1>
 				<h3 id="beta_label" class="">beta</h3>
 	        	<p class="italic">an easy to use, open source, bug reporter for mobile applications.</p>
-				<p class="description">Shake Reporter is a framework that allows you to easily get bug reports from users of your mobile application. When you see something wrong, shake the device, and report the issue with a custom message. You can either receive reports by email or configure a shake report backend which will collect and classify the reports.</p>
-	        	<p>
-	        		<a class="btn btn-primary btn-lg" href="https://github.com/jayztemplier/ShakeReport" target="_blank">Get last stable version</a>
-	        		<a class="btn btn-primary btn-lg" href="#installation" target="_blank">Install tutorial</a>
+				<p class="description">
+					Shake Reporter is a framework that allows you to easily get bug reports from users of your mobile application. When you see something wrong, shake the device, and report the issue with a custom message. You can either receive reports by email or configure a shake report backend which will collect and classify the reports.
+				</p>
+	        	<p >
+	        		<ul id="sources">
+	        			<li>
+	        				<a class="btn btn-primary btn-lg" href="https://github.com/jayztemplier/ShakeReport" target="_blank">Library</a>
+	        				to include in your iOS project
+	        			</li>
+	        			<li>
+	        				<a class="btn btn-primary btn-lg" href="https://github.com/jayztemplier/ShakeReportServer" target="_blank">Backend</a>
+	        				to manage your reports
+	        			</li>
+	        			<li>
+	        				<a class="btn btn-primary btn-lg" href="#installation" target="_blank">Tutorial</a> to understand how it works and how to use it
+	        			</li>
+	        		</ul>
 	        	</p>
 	     	</div>
-			<div class="col-md-3 embeddedVideo">
-				<img src="./assets/img/iphone_5_blanc.png">
+			<div class="col-md-2">
+				<div id="iphone">
+						<div id="screen" style="overflow: hidden; position: relative;">
+							<object classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B'
+			        width="161" height="283"
+			        codebase='http://www.apple.com/qtactivex/qtplugin.cab' >
+			        <param name='src' value="./assets/video/example.MOV">
+			        <param name='autoplay' value="true">
+			        <param name='controller' value="false">
+			        <param name='loop' value="true">
+
+			        <embed src="./assets/video/example.MOV" width="222" height="405"
+			        scale="tofit" autoplay="true"
+			        controller="false" loop="true" bgcolor="#000000"
+			        pluginspage='http://www.apple.com/quicktime/download/'>
+			        </embed>
+			    	</object>  
+						</div>
+					</div>
+				<!-- <img src="./assets/img/iphone_5_blanc.png">
 			    <object id="video" classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B'
 			        width="161" height="283"
 			        codebase='http://www.apple.com/qtactivex/qtplugin.cab'>
@@ -43,15 +74,15 @@
 			        controller="false" loop="true" bgcolor="#000000"
 			        pluginspage='http://www.apple.com/quicktime/download/'>
 			        </embed>
-			    </object>     
+			    </object>      -->
 			</div>
 		</div>
 	</div>
 	<!-- --------------------------------- -->
 
 
-	<!-- BACKEND  -->
-	<div id="backend" class="jumbotron">
+	<!-- FEATURES  -->
+	<div id="features" class="block jumbotron">
 		<div class="container">
 			<h1>How does it work?</h1>
 			<div class="sub-section how-it-works">
@@ -72,9 +103,15 @@
 					</li>
 				</ul>
 			</div>
-
+		</div>
+	</div>
+	<!-- --------------------------------- -->
+	
+	<!-- FEATURES  -->
+	<div id="backend" class="block jumbotron">
+		<div class="container">
+			<h1>Better with the ShakeReport Server</h1>
 			<div class="sub-section server-description">
-				<h2>Better with the ShakeReport Server</h2>
 				<div id="carousel-example-generic" class="carousel slide">
 				  <!-- Indicators -->
 				  <ol class="carousel-indicators">
@@ -126,9 +163,12 @@
 				      		<p>receive an email when a report is created or when a new build is ready.</p>
 				      </div>
 				    </div>
-	
-	
+
 				  </div>
+
+  				  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+  				  	<span class="icon-next"></span>
+  				  </a>
 				</div>
 			</div
 
@@ -136,14 +176,21 @@
 				<h2>Entirely Open Source</h2>
 				<p>The best thing is that it's entirely open source. You can help us to make this library awesome by contributing to the code source. This project is open source and will stay open source. It's been made by iOS developers for iOS developers, that's it.</p>
 			</div>
+
 		</div>
 	</div>
 	<!-- --------------------------------- -->
 
+
+			
 	<!-- INSTALLATION  -->
-	<div id="installation" class="container">
-		<!-- BY EMAIL -->
-		<div class="row">
+	<div id="installation" class="block jumbotron">
+		<div class="container">
+			<h1>Installation</h1>
+			<div class="sub-section how-it-works">
+			<div class="sub-section server-description">
+			<!-- BY EMAIL -->
+		<div id="installation"  class="row">
 			<div class="col-md-6 installation_column">
 				<h3 class="column_title">By email</h3>
 				<div class="row">
@@ -216,8 +263,11 @@ NSURL *url = [NSURL URLWithString:@"http://my_app_name.herokuapp.com/reports.jso
 				</div>
 			</div>
 		</div>
-	</div> <!-- /container -->
-<!-- --------------------------------- -->
+		</div>
+			</div>
+		</div>
+	</div>
+	<!-- --------------------------------- -->
 
 
 
